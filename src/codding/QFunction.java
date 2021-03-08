@@ -32,6 +32,7 @@ public class QFunction extends JFrame{
 			JButton button = new JButton("DRAW");
 			add(button);
 			button.addActionListener(this);
+			repaint();
 		}
 		@Override
 		public void actionPerformed(ActionEvent e) {
